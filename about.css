@@ -1,0 +1,299 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* indexpage css-s */
+/* nav css */
+.parent{
+    height: 80px;
+    background-color:#008080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.parent img{
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.parent ul{
+    color:#F5F5DC;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.parent ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    cursor: pointer;
+}
+
+.parent button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height:35px;
+    width: 150px;
+    border: 1px solid #F5F5DC;
+    background-color: transparent;
+    color: white;
+    margin-right:20px;
+    cursor: pointer;
+    transition: all 3s ease;
+}
+
+.parent button a{
+    text-decoration: none;
+    color: #F5F5DC;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+/* about content css */
+.about{
+    height: 600px;
+    background-color:#F5F5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcontent{
+    height: 580px;
+    background-color:#F5F5DC;
+    margin:0px 200px 0px 200px;
+    text-align: center;
+}
+
+.aboutcontentp1{
+ margin: 20px 0px;
+}
+
+.aboutcontentp2{
+    margin: 0px 0px 20px;
+}
+
+.aboutcontentp3{
+    margin: 20px 0px 0px;
+}
+
+.aboutcontent p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #2b2a29;
+}
+
+.aboutcontent h1{
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color:#008080;
+}
+
+.aboutcontent button{
+    height: 40px;
+    width: 180px;
+   margin-top: 30px;
+   background-color: #008080;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   font-size: 18px;
+   color: #F5F5DC;
+   font-family: "Open Sans", sans-serif;
+}
+
+.aboutcontent button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+/* footer css */
+.footer{
+    height: 350px;
+    background-color: #008080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerlogo img{
+    height: 200px;
+    width: 200px;
+}
+
+.footericon i{
+    color: #F5F5DC;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.quicklinks ul li{
+  text-decoration: none;
+  list-style: none;
+  color: #F5F5DC;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.quicklinks ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+}
+
+.quicklinks p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #F5F5DC;
+    margin-top: 48px;
+}
+
+.quicklinks{
+    padding-bottom: 60px;
+}
+
+.enquire p{
+    font-size: 24px;
+    color: #F5F5DC;
+    font-family: "Raleway", sans-serif;
+}
+
+.enquire button{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: #F5F5DC;
+    border: 1px solid #F5F5DC;
+    font-size: 15px;
+}
+
+.enquire button:hover{
+    background-color: #F5F5DC;
+    color: #1a1a1a;
+    border: 1px solid #F5F5DC;
+}
+
+  .enquireform{
+    height: 30px;
+    width: 200px;
+}
+
+.enquire button{
+    width:180px;
+    background-color: transparent;
+    border: 1px solid #F5F5DC;
+    color: #F5F5DC;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 180px;
+}
+
+.enquire{
+    margin-top: -15px;
+}
+
+.copyright{
+    height: 80px;
+    background-color:#008080;
+    border-top:1px solid rgb(0, 0, 0,0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #F5F5DC;
+}
+
+/* customer review css */
+.review{
+    height: 700px;
+    background-color: #F5F5DC;
+    padding-top: 20px;
+}
+
+.reviewtext p{
+    color: #008080;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.reviewtext img{
+    height: 45px;
+    width: 180px;
+   margin-top: -80px;
+}
+
+.reviewtext{
+    height:119px;
+   background-color:#F5F5DC;
+   text-align: center;
+   margin-top: -20px;
+}
+
+.reviewcard1{
+    height: 450px;
+    width: 350px;
+   background-color:rgb(0, 128, 128,0.8);
+   text-align: center;
+   font-size: 18px;
+   font-family: "Open Sans", sans-serif;  
+   color:#F5F5DC;
+   border: 0.5px solid rgb(0, 0, 0,0.5);
+   border-radius: 5px;
+}
+
+.reviewcard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.reviewcard1 p{
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.cardname{
+    height:100px;
+    background-color:#F5F5DC;
+    border-top: 0.2px solid rgb(0, 0, 0,0.5);
+    margin-top: 35.7px;
+}
+
+.paracard2{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 0.5px;
+    color: rgb(0, 128, 128,0.9);
+}
+
+.paracard{
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #008080;
+    font-weight: 700;
+}
+
+.cardname p{
+    padding-top: 0.1px;
+}

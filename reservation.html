@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <input type="checkbox" id="click">
+    <!-- nav-start -->
+    <nav class="parent">
+        <img src="./assests/logo.svg" alt="randomimage">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="ourstory.html">Our Story</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+        <button>Reservation</button>
+        <label for="click">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+     <!-- nav-end -->
+
+     <div class="reservation">
+        <div class="orderonline">
+            <img src="./assests/deliveryscooter-removebg-preview.png" alt="">
+            <h2>Order Online</h2>
+            <h1>Our Dosa Are Coming Your Way</h1>
+            <button>Order Now</button>
+        </div>
+        <div class="booktable">
+            <h2>Request a Table</h2>
+            <p>Select your details and we’ll try to get the best seats for you.</p><br>
+            <form action="">
+
+                <label for="Location">Enter Your Location:</label><br>
+               <select name="" id="Location" required>
+                <option value="">Bhopal</option>
+                <option value="">Indore</option>
+                <option value="">Pune</option>
+                <option value="">Hyderabad</option>
+                <option value="">Noida</option>
+               </select><br><br>
+
+               <label for="">Enter Your Party Size:</label><br>
+               <select name="" id="" required>
+               <option value="">5 Guests</option>
+               <option value="">10 Guests</option>
+               <option value="">15 Guests</option>
+               <option value="">20 Guests</option>
+               <option value="">25+ Guests</option>
+               </select><br><br>
+
+               <label for="">Enter Your Party - Date:</label><br>
+               <input type="date" required><br><br>
+
+               <label for=""> Enter Your Party - Time:</label><br>
+               <input type="time" placeholder="Enter Your Party Time" required><br><br>
+
+               <button>Request A Table</button>
+            </form>
+        </div>
+     </div>
+
+     <!-- footer-s -->
+    <div class="footer">
+        <div class="footerlogo">
+            <img src="./assests/footerlogo.svg" alt="">
+            <div class="footericon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="quicklinks">
+            <p>Quick Links:</p>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Contact Us</li>
+                <li>Swiggy</li>
+                <li>Zomato</li>
+            </ul>
+        </div>
+
+        <div class="enquire">
+            <p>Inquire:</p>
+            <form action="index.html">
+            <input type="Name" placeholder="Name:" required class="enquireform"><br><br>
+            <input type="Email" placeholder="Email id:" required class="enquireform"><br><br>
+            <input type="number" placeholder="Mobile No.:" required class="enquireform"><br><br>
+           <button>Request A Call</button>
+        </form>
+        </div>
+    </div>
+
+    <div class="copyright">
+      <p>All rights reserved 2025-26.</p>
+    </div>
+    <!-- footer-e -->
+</body>
+</html>
