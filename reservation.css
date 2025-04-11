@@ -177,26 +177,42 @@ body{
 
 
 
+
+
 .quicklinks ul li{
-  text-decoration: none;
-  list-style: none;
-  color: #F5F5DC;
-  padding-top: 10px;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  cursor: pointer;
-}
-
-.quicklinks p{
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    list-style: none;
     color: #F5F5DC;
-    margin-top: 48px;
-}
-
-.quicklinks{
-    padding-bottom: 60px;
-}
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+  }
+  
+  .quicklinks p{
+      font-size: 24px;
+      font-family: "Raleway", sans-serif;
+      color: #F5F5DC;
+      margin-top: 48px;
+  }
+  
+  .quicklinks{
+      padding-bottom: 60px;
+  }
+  
+  .enquire p{
+      font-size: 24px;
+      color: #F5F5DC;
+      font-family: "Raleway", sans-serif;
+  }
+  
+  .quicklinks ul li a{
+      text-decoration: none;
+      color:#F5F5DC;
+      font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+  }
 
 .enquire p{
     font-size: 24px;
