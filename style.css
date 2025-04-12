@@ -58,6 +58,10 @@ body{
     font-size: 14px;
 }
 
+.parent label{
+    display: none;
+}
+
 
 /* background img css */
 .bg{
@@ -179,10 +183,14 @@ body{
     transition: all 3s ease;
 }
 
-.menubutton button:hover{
-    background-color: #F5F5DC;
-    color: black;
+
+.menubutton button a{
+    color: #F5F5DC;
+    text-decoration: none;
+    font-size: 13px;
 }
+
+
 
 
 /* photoshop css */
@@ -383,13 +391,6 @@ body{
    cursor: pointer;
    transition: all 3s ease;
 }
-
-.aboutcontent button:hover{
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
-}
-
 
 /* footer css */
 .footer{

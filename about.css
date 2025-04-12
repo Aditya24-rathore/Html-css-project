@@ -60,15 +60,16 @@ body{
 
 /* about content css */
 .about{
-    height: 600px;
+    height: 560px;
     background-color:#F5F5DC;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutcontent{
-    height: 580px;
+    height:550px;
     background-color:#F5F5DC;
     margin:0px 200px 0px 200px;
     text-align: center;
@@ -109,12 +110,6 @@ body{
    font-size: 18px;
    color: #F5F5DC;
    font-family: "Open Sans", sans-serif;
-}
-
-.aboutcontent button:hover{
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
 }
 
 /* footer css */
