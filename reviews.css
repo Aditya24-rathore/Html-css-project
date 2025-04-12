@@ -14,6 +14,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .parent img{
@@ -58,12 +59,40 @@ body{
     font-size: 14px;
 }
 
+.parent label{
+    display: none;
+}
+#click:checked~.parent ul{
+    display: block;
+}
+#click{
+    display: none;
+}
+
+@media  screen and (max-width:700px){
+    .parent label{
+        display: block;
+    }
+
+    .parent ul{
+        display: none;
+        position: absolute;
+        top: 54px;
+        width: 100%;
+        background-color: #008080e1;
+    }
+    .parent ul li{
+        padding: 20px;
+    
+    }
+}
+
 
 /* customer review css */
 .review{
-    height: 700px;
+    /* height: 700px; */
     background-color: #F5F5DC;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .reviewtext p{
@@ -74,20 +103,20 @@ body{
 }
 
 .reviewtext img{
-    height: 45px;
+    /* height: 45px; */
     width: 180px;
    margin-top: -80px;
 }
 
 .reviewtext{
-    height:119px;
+    /* height:119px; */
    background-color:#F5F5DC;
    text-align: center;
    margin-top: -20px;
 }
 
 .reviewcard1{
-    height: 450px;
+    /* height: 450px; */
     width: 350px;
    background-color:rgb(0, 128, 128,0.8);
    text-align: center;
@@ -95,13 +124,14 @@ body{
    font-family: "Open Sans", sans-serif;  
    color:#F5F5DC;
    border: 0.5px solid rgb(0, 0, 0,0.5);
-   border-radius: 5px;
+   border-radius: 20px;
 }
 
 .reviewcard{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .reviewcard1 p{
@@ -112,7 +142,7 @@ body{
 }
 
 .cardname{
-    height:100px;
+    /* height:100px; */
     background-color:#F5F5DC;
     border-top: 0.2px solid rgb(0, 0, 0,0.5);
     margin-top: 35.7px;
@@ -136,18 +166,19 @@ body{
     padding-top: 0.1px;
 }
 
-
 /* footer css */
 .footer{
-    height: 350px;
+    /* height: 350px; */
     background-color: #008080;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .footerlogo img{
-    height: 200px;
+    /* height: 200px; */
     width: 200px;
 }
 
@@ -170,14 +201,6 @@ body{
   cursor: pointer;
 }
 
-.quicklinks ul li a{
-    text-decoration: none;
-    color:#F5F5DC;
-    font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  padding-top: 10px;
-}
-
 .quicklinks p{
     font-size: 24px;
     font-family: "Raleway", sans-serif;
@@ -193,6 +216,14 @@ body{
     font-size: 24px;
     color: #F5F5DC;
     font-family: "Raleway", sans-serif;
+}
+
+.quicklinks ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
 }
 
 .enquire button{
@@ -224,7 +255,7 @@ body{
     color: #F5F5DC;
     font-size: 15px;
     font-family: "Raleway", sans-serif;
-    height: 40px;
+    /* height: 40px; */
     margin-left: 10px;
     margin-top: 10px;
     width: 180px;
@@ -236,15 +267,14 @@ body{
 }
 
 .copyright{
-    height: 80px;
+    /* height: 80px; */
     background-color:#008080;
     border-top:1px solid rgb(0, 0, 0,0.5) ;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     color: #F5F5DC;
 }
-
-

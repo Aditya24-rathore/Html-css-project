@@ -14,6 +14,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .parent img{
@@ -51,16 +52,47 @@ body{
     transition: all 3s ease;
 }
 
-.parent button:hover{
-    background-color: #F5F5DC;
-    color:black;
+.parent button a{
+    text-decoration: none;
+    color: #F5F5DC;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.parent label{
+    display: none;
+}
+#click:checked~.parent ul{
+    display: block;
+}
+#click{
+    display: none;
+}
+
+@media  screen and (max-width:700px){
+    .parent label{
+        display: block;
+    }
+
+    .parent ul{
+        display: none;
+        position: absolute;
+        top: 54px;
+        width: 100%;
+        background-color: #008080e1;
+    }
+    .parent ul li{
+        padding: 20px;
+    
+    }
 }
 
 /* reservation css */
 .reservation{
     background-color: aquamarine;
     display: flex;
-    height: 560px;
+    flex-wrap: wrap;
+    /* height: 560px; */
 }
 .orderonline{
     background-color:#F5F5DC;
@@ -68,10 +100,11 @@ body{
     text-align: center;
     font-family: "Raleway", sans-serif;
     padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .orderonline img{
-    height: 200px;
+    height: 150px;
 }
 
 .orderonline h2{
@@ -105,6 +138,7 @@ body{
     width: 50%;
     background-color:#F5F5DC;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .booktable input{
@@ -156,15 +190,17 @@ body{
 
 /* footer css */
 .footer{
-    height: 350px;
+    /* height: 350px; */
     background-color: #008080;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .footerlogo img{
-    height: 200px;
+    /* height: 200px; */
     width: 200px;
 }
 
@@ -177,47 +213,39 @@ body{
 
 
 
-
-
 .quicklinks ul li{
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
+  color: #F5F5DC;
+  padding-top: 10px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.quicklinks p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
     color: #F5F5DC;
-    padding-top: 10px;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    cursor: pointer;
-  }
-  
-  .quicklinks p{
-      font-size: 24px;
-      font-family: "Raleway", sans-serif;
-      color: #F5F5DC;
-      margin-top: 48px;
-  }
-  
-  .quicklinks{
-      padding-bottom: 60px;
-  }
-  
-  .enquire p{
-      font-size: 24px;
-      color: #F5F5DC;
-      font-family: "Raleway", sans-serif;
-  }
-  
-  .quicklinks ul li a{
-      text-decoration: none;
-      color:#F5F5DC;
-      font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    padding-top: 10px;
-  }
+    margin-top: 48px;
+}
+
+.quicklinks{
+    padding-bottom: 60px;
+}
 
 .enquire p{
     font-size: 24px;
     color: #F5F5DC;
     font-family: "Raleway", sans-serif;
+}
+
+.quicklinks ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
 }
 
 .enquire button{
@@ -249,7 +277,7 @@ body{
     color: #F5F5DC;
     font-size: 15px;
     font-family: "Raleway", sans-serif;
-    height: 40px;
+    /* height: 40px; */
     margin-left: 10px;
     margin-top: 10px;
     width: 180px;
@@ -261,14 +289,14 @@ body{
 }
 
 .copyright{
-    height: 80px;
+    /* height: 80px; */
     background-color:#008080;
     border-top:1px solid rgb(0, 0, 0,0.5) ;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     color: #F5F5DC;
 }
-

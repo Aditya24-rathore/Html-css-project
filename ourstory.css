@@ -14,6 +14,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .parent img{
@@ -58,6 +59,34 @@ body{
     font-size: 14px;
 }
 
+.parent label{
+    display: none;
+}
+#click:checked~.parent ul{
+    display: block;
+}
+#click{
+    display: none;
+}
+
+@media  screen and (max-width:700px){
+    .parent label{
+        display: block;
+    }
+
+    .parent ul{
+        display: none;
+        position: absolute;
+        top: 54px;
+        width: 100%;
+        background-color: #008080e1;
+    }
+    .parent ul li{
+        padding: 20px;
+    
+    }
+}
+
 /* ourstory css */
 .ourstory{
     height: 600px;
@@ -65,6 +94,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .ourstoryimg img{
@@ -107,6 +137,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding-top: 2px;
+    flex-wrap: wrap;
   }
 
   .ourstory2text{
@@ -150,15 +181,17 @@ body{
 
 /* footer css */
 .footer{
-    height: 350px;
+    /* height: 350px; */
     background-color: #008080;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .footerlogo img{
-    height: 200px;
+    /* height: 200px; */
     width: 200px;
 }
 
@@ -181,14 +214,6 @@ body{
   cursor: pointer;
 }
 
-.quicklinks ul li a{
-    text-decoration: none;
-    color:#F5F5DC;
-    font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  padding-top: 10px;
-}
-
 .quicklinks p{
     font-size: 24px;
     font-family: "Raleway", sans-serif;
@@ -204,6 +229,14 @@ body{
     font-size: 24px;
     color: #F5F5DC;
     font-family: "Raleway", sans-serif;
+}
+
+.quicklinks ul li a{
+    text-decoration: none;
+    color:#F5F5DC;
+    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
 }
 
 .enquire button{
@@ -235,7 +268,7 @@ body{
     color: #F5F5DC;
     font-size: 15px;
     font-family: "Raleway", sans-serif;
-    height: 40px;
+    /* height: 40px; */
     margin-left: 10px;
     margin-top: 10px;
     width: 180px;
@@ -247,12 +280,13 @@ body{
 }
 
 .copyright{
-    height: 80px;
+    /* height: 80px; */
     background-color:#008080;
     border-top:1px solid rgb(0, 0, 0,0.5) ;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     color: #F5F5DC;
