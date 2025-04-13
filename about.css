@@ -69,6 +69,10 @@ body{
     display: none;
 }
 
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
 @media  screen and (max-width:700px){
     .parent label{
         display: block;
@@ -86,6 +90,12 @@ body{
     
     }
 }
+
+
+.parent label i{
+    color: #F5F5DC;
+}
+
 
 /* about content css */
 .about{
@@ -182,6 +192,11 @@ body{
     font-family: "Raleway", sans-serif;
     color: #F5F5DC;
     margin-top: 48px;
+}
+
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
 }
 
 .quicklinks{

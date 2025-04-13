@@ -33,10 +33,18 @@ body{
     margin-right: 50px;
 }
 
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
 .parent ul li a{
     text-decoration: none;
     color:#F5F5DC;
     cursor: pointer;
+}
+
+.parent label i{
+    color: #F5F5DC;
 }
 
 .parent button{
@@ -194,6 +202,10 @@ body{
     padding-left: 15px;
 }
 
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
+}
 
 
 .quicklinks ul li{

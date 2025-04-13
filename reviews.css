@@ -23,6 +23,10 @@ body{
     margin-top: 10px;
 }
 
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
 .parent ul{
     color:#F5F5DC;
     list-style: none;
@@ -85,6 +89,10 @@ body{
         padding: 20px;
     
     }
+}
+
+.parent label i{
+    color: #F5F5DC;
 }
 
 
@@ -177,6 +185,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
+}
+
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
 }
 
 .footerlogo img{

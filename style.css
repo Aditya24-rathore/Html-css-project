@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+   
 }
 
 /* indexpage css-s */
@@ -52,11 +53,19 @@ body{
     transition: all 3s ease;
 }
 
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
 .parent button a{
     text-decoration: none;
     color: #F5F5DC;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
+}
+
+.parent label i{
+    color: #F5F5DC;
 }
 
 .parent label{
@@ -159,6 +168,9 @@ body{
     font-family: "Raleway", sans-serif;
 }
 
+.section h5{
+    color: rgb(0, 0, 0,0.9);
+}
 /* menu bar css */
 .menu{
     /* height: 400px; */
@@ -405,6 +417,11 @@ body{
     padding-left: 15px;
 }
 
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
+}
+
 
 
 .quicklinks ul li{
@@ -572,5 +589,7 @@ body{
 .cardname p{
     padding-top: 0.1px;
 }
+
+
 /* indexhtml css-e */
 

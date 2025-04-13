@@ -17,6 +17,10 @@ body{
     z-index: 1;
 }
 
+.parent ul li a:hover{
+    text-decoration: underline;
+}
+
 .parent img{
     height: 60px;
     width: 100px;
@@ -85,6 +89,10 @@ body{
         padding: 20px;
     
     }
+}
+
+.parent label i{
+    color: #F5F5DC;
 }
 
 /* ourstory css */
@@ -193,6 +201,12 @@ body{
 .footerlogo img{
     /* height: 200px; */
     width: 200px;
+}
+
+
+.footericon i:hover{
+    transform: scale(1.4);
+   padding-top: 3px;
 }
 
 .footericon i{
