@@ -125,7 +125,8 @@ body{
    color:#F5F5DC;
    border: 0.5px solid rgb(0, 0, 0,0.5);
    border-radius: 20px;
-   padding-bottom: 20px;
+   padding-top: 20px;
+   margin-top: 20px;
 }
 
 .reviewcard{
